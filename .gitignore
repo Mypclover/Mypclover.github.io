@@ -1,10 +1,39 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-.idea/misc.xml
+# compiled output
+/dist
+/tmp
+/out-tsc
 
-.idea/modules.xml
+# dependencies
+/node_modules
 
-.idea/mypclover.github.io.iml
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-.idea/vcs.xml
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-.idea/workspace.xml
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
